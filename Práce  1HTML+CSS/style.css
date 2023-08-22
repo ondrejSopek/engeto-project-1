@@ -1,0 +1,673 @@
+.main-container {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.inner-box {
+  width: 1060px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.relative {
+  position: relative;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+.box-1 {
+  height: 67px;
+  background-color: #3a2e2f;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+.items1 {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.replacement-items1 {
+  display: none;
+}
+
+.box-2 {
+  background-image: url(podklady/photos/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 804px;
+  font-size: 48px;
+}
+
+.items2 {
+  text-align: right;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  display: flex;
+  height: 400px;
+  width: auto;
+}
+
+.box-3 {
+  height: 510px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.items3 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  flex-direction: column;
+  flex: 1;
+}
+
+.items3 p {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 80%;
+  margin-right: 5%;
+  font-size: 16px;
+}
+
+.items3 h3 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.items3 img {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 5%;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.box-4 {
+  height: 591px;
+  background-color: #644b4f;
+  display: flex;
+}
+
+.items4 {
+  box-sizing: border-box;
+  display: flex;
+  font-size: 18px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.items4-long {
+  top: 30px;
+  width: 100%;
+  height: 50%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.items4-short {
+  width: 10%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.items4-short p {
+  font-size: 24px;
+}
+
+.items4-short img {
+  width: 90%;
+  height: 90%;
+  position: relative;
+}
+
+.box-5 {
+  height: 806px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.item5 {
+  width: 33.33%;
+  padding: 1%;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.items5-text {
+  display: flex;
+  font-size: 36px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+.item5 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.box-6 {
+  height: 400px;
+  background-color: #644b4f;
+}
+
+.item6 {
+  box-sizing: border-box;
+}
+
+.item6-text {
+  width: 20%;
+  height: 100%;
+  padding-top: 5%;
+}
+
+.item6-text2 {
+  font-size: 16px;
+  flex-direction: column;
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 5%;
+  display: flex;
+}
+
+.item6-text2 button {
+  margin-top: 5%;
+  height: 50px;
+  width: 160px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+}
+
+.box-7 {
+  height: 700px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.item7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.item7-1 {
+  width: 100%;
+  height: 30%;
+}
+
+.inner-item7 {
+  width: 40%;
+}
+
+.item7-2,
+.item7-3 {
+  width: 40%;
+  height: 60%;
+  padding: 5%;
+}
+
+.item7-2 img,
+.item7-3 img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.item7-2 p,
+.item7-3 p {
+  padding-top: 5%;
+  margin: 10px 0;
+}
+
+.box-8 {
+  height: 840px;
+  background-color: #644b4f;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.item8 {
+  width: 50%;
+  height: 50%;
+}
+
+.item8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-9 {
+  height: 115px;
+  background: #333333;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.item9 {
+  padding-top: 1%;
+  font-size: 18px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding-top: 3%;
+}
+.item9 h6 {
+  margin-top: 15px;
+}
+.link {
+  justify-self: end;
+  color: #efa69d;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: white;
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+@media screen and (max-width: 1080px) {
+  .inner-box {
+    width: 100%;
+    flex-direction: row;
+  }
+  .box {
+    height: auto;
+    width: auto;
+  }
+  h2 {
+    font-size: 42px;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 1080px) {
+  .items1 {
+    display: none;
+  }
+  .replacement-items1 {
+    height: 67px;
+    width: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+  }
+  .replacement-items1 img {
+    height: 35px;
+    width: 55px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .box-2 {
+    background-image: url(podklady/photos/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 804px;
+    font-size: 38px;
+  }
+  .items2 {
+    padding-right: 5%;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .items3 p {
+    padding-left: 12.5%;
+    margin-top: 5px;
+    padding-bottom: 15%;
+  }
+  .items3 h2 {
+    padding-top: 15%;
+    padding-left: 12.5%;
+    padding-bottom: 4%;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .items3 img {
+    padding-right: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .items4-long h2 {
+    margin-bottom: 1px;
+  }
+  .items4 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .items4-short {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 10%;
+    white-space: nowrap;
+  }
+  .items4-short p {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .items4-short img {
+    width: 55px;
+    height: 60px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .box-5 {
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    height: 806px;
+  }
+
+  .item5 {
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .item6 {
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+  }
+  .item6-text {
+    margin-left: 10px;
+    width: 24%;
+  }
+  .item6-text2 {
+    width: 70%;
+  }
+
+  .item6-text2 button {
+    height: 40px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .inner-item7 {
+    width: 55%;
+    padding-top: 5%;
+  }
+  .item7-2,
+  .item7-3 {
+    padding: 0%;
+    padding-top: 6%;
+    width: 45%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 6%;
+  }
+
+  .item7-2 img,
+  .item7-3 img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .box-8 {
+    height: 840px;
+  }
+}
+
+/*
+
+
+08.06.2023
+*/
+
+@media screen and (max-width: 768px) {
+  .inner-box {
+    width: 100%;
+    flex-direction: column;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .replacement-items1 {
+    right: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-2 {
+    font-size: 20px;
+  }
+  .items2 {
+    right: 10px;
+    height: 140px;
+    bottom: 80px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .items3 h2 {
+      padding-left: 7%;
+      padding-top: 5%;
+    }
+    .items3 p {
+      padding-left: 7%;
+      padding-right: 6%;
+      margin-right: 0%;
+      padding-bottom: 0%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .items3 img {
+      padding-top: 5%;
+      margin-bottom: 90px;
+      padding-left: 7%;
+      padding-right: 7%;
+      margin-left: 0%;
+      border-radius: 5px;
+      padding-bottom: 0%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .box-4 {
+      padding-bottom: 40px;
+    }
+    .items4-long {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .items4-short {
+      width: 100%;
+      padding-top: 35px;
+      padding-bottom: 25px;
+      height: 120px;
+    }
+    .items4-short img {
+      width: 90px;
+      height: 100px;
+      position: relative;
+    }
+  }
+  .items4-short p {
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-5 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: auto;
+  }
+  .item5 {
+    width: 100%;
+  }
+  .item5 img {
+    height: 350px;
+  }
+  .items5-text {
+    padding-top: 5px;
+    height: 90px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .item6-text {
+    margin-left: 0px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .item6-text2 {
+    width: 100%;
+    padding-bottom: 70px;
+    text-align: left;
+  }
+  .item6-text2 button {
+    height: 45px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-7 {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-bottom: 10px;
+  }
+  .inner-item7 {
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .item7-1 {
+    height: auto;
+  }
+  .item7-2 {
+    height: auto;
+    width: 100%;
+    padding: 0%;
+    padding-bottom: 30px;
+  }
+  .item7-3 {
+    height: auto;
+    width: 100%;
+    padding: 0%;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box-8 {
+    height: auto;
+  }
+  .item8 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item9 {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+}
